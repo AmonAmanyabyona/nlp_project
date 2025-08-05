@@ -1,0 +1,8 @@
+Why Whisper (Small)?
+Strong accuracy, especially with casual speech and diverse accents
+
+Lightweight options like small or base run well on most CPUs or basic GPUs
+
+Easy to use via the openai-whisper or whisper Python packages
+
+Handles multilingual input well — just in case 

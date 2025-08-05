@@ -1,0 +1,59 @@
+#creating the Virtual Environment
+python3 -m venv myenv
+
+#Activating the Virtual Environment
+source myenv/bin/activate
+
+#decompress the .bz2 file to get xml file using:
+bzip2 -dk enwikiquote-20250601-pages-articles-multistream.xml.bz2
+
+#install mwparserfromhell module
+pip install mwparserfromhell
+
+#install neo4j
+pip install neo4j
+
+pip install python-dotenv
+
+#for chatbot
+pip install azure-ai-inference
+
+#seetting up voice dependencies
+pip install openai-whisper sounddevice scipy
+
+#then ffmpeg installed for Whisper
+sudo apt install ffmpeg
+
+#for chatbot
+$ .venv/bin/python -m pip install azure-ai-inference
+
+
+#for env file
+.venv/bin/python -m pip install python-dotenv
+
+
+#ui 
+pip install streamlit
+pip install ffmpeg-python
+streamlit run user_interaction9.py
+
+
+#text to speech
+pip install gtts
+
+
+
+
+#setting up flan t5 module
+pip install transformers
+pip install torch
+pip install huggingface_hub
+
+
+#how to delete models in terminal to clear space
+$ ls ~/.cache/huggingface/hub
+$ rm -rf ~/.cache/huggingface/hub/models--microsoft--DialoGPT-small/
+
+
+#using api together site
+pip install together
